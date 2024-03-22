@@ -1,0 +1,31 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "servers",
+            "group": "Databases",
+            "database": "tracker",
+            "username": "postgres",
+            "password": "0781289792"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "mysql",
+            "group": "root",
+            "database": "vaccination_tracker",
+            "username": "root",
+            "password": "Niajaime@22"
+        }
+    ]
+}
